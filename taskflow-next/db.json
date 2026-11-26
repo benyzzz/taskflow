@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": "site-esiee",
+      "name": "Site ESIEE-IT",
+      "description": "Refonte du site vitrine de l'école."
+    },
+    {
+      "id": "app-mobile",
+      "name": "Application mobile",
+      "description": "Prototype de l'application étudiante (emplois du temps, notes)."
+    },
+    {
+      "id": "memoire-m2",
+      "name": "Mémoire de M2",
+      "description": "Rédaction et soutenance du mémoire de fin d'études."
+    }
+  ],
+  "tasks": [
+    { "id": "t1", "projectId": "site-esiee", "title": "Maquette de la page d'accueil", "status": "done", "priority": "P1" },
+    { "id": "t2", "projectId": "site-esiee", "title": "Intégrer la page Formations", "status": "doing", "priority": "P2" },
+    { "id": "t3", "projectId": "site-esiee", "title": "Mettre en ligne sur Vercel", "status": "todo", "priority": "P3" },
+    { "id": "t4", "projectId": "app-mobile", "title": "Choisir le framework", "status": "done", "priority": "P1" },
+    { "id": "t5", "projectId": "app-mobile", "title": "Écran de connexion", "status": "todo", "priority": "P2" },
+    { "id": "t6", "projectId": "memoire-m2", "title": "Plan détaillé", "status": "doing", "priority": "P1" },
+    { "id": "t7", "projectId": "memoire-m2", "title": "Bibliographie", "status": "todo", "priority": "P3" }
+  ]
+}
