@@ -6,10 +6,18 @@ TaskFlow est une petite application de gestion de projets et de tâches, constru
 
 | TP  | Branche | Contenu | Version en ligne |
 | --- | ------- | ------- | ---------------- |
-| TP1 | `tp1` | Liste de tâches typée (composants, props, `useState`, listes, filtres) | _à compléter (Vercel)_ |
-| TP2 | `tp2` | Persistance `localStorage`, titre d'onglet, focus auto, priorité, minuteur, thème clair/sombre | _à compléter (Vercel)_ |
-| TP3 | `tp3` | Multi-pages avec React Router + API REST (json-server) | _à compléter (Vercel + Render)_ |
-| TP4 | `tp4` | La partie lecture refaite en Next.js (dossier `taskflow-next/`) | _à compléter (Vercel)_ |
+| TP1 | `tp1` | Liste de tâches typée (composants, props, `useState`, listes, filtres) | https://taskflow-tp1-zeta.vercel.app |
+| TP2 | `tp2` | Persistance `localStorage`, titre d'onglet, focus auto, priorité, minuteur, thème clair/sombre | https://taskflow-tp2-tan.vercel.app |
+| TP3 | `tp3` | Multi-pages avec React Router + API REST (json-server) | https://taskflow-tp3-one.vercel.app (front ; l'API json-server tourne en local) |
+| TP4 | `tp4` | La partie lecture refaite en Next.js (dossier `taskflow-next/`) | https://taskflow-tp4.vercel.app |
+
+## Captures d'écran
+
+| TP1 | TP2 |
+| --- | --- |
+| ![TP1](docs/captures/tp1.png) | ![TP2](docs/captures/tp2.png) |
+| **TP3** | **TP4** |
+| ![TP3](docs/captures/tp3-projet.png) | ![TP4](docs/captures/tp4.png) |
 
 ## Lancer le projet React (TP1 à TP3)
 
