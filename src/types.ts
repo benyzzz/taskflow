@@ -8,9 +8,21 @@ export interface Task {
   title: string
   status: Status
   priority: Priority
+  projectId?: string // TP3 : la tâche appartient à un projet
 }
 
 export type Filter = 'all' | Status
+
+// TP3
+export interface Project {
+  id: string
+  name: string
+  description: string
+  tasks?: Task[] // rempli avec ?_embed=tasks
+}
+
+export type NewProject = Omit<Project, 'id' | 'tasks'>
+export type NewTask = Omit<Task, 'id'>
 
 export const STATUS_LABELS: Record<Status, string> = {
   todo: 'À faire',
