@@ -20,7 +20,7 @@ function validate(values: NewProject): Errors {
 export default function NewProjectPage() {
   const navigate = useNavigate()
   const [values, setValues] = useState<NewProject>({ name: '', description: '' })
-  const [submitted, setSubmitted] = useState(false) // erreurs visibles après la 1re tentative
+  const [submitted, setSubmitted] = useState(false)
   const [sending, setSending] = useState(false)
   const [apiError, setApiError] = useState<string | null>(null)
 

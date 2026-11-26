@@ -14,7 +14,6 @@ const ThemeContext = createContext<ThemeContextValue | null>(null)
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useLocalStorage<Theme>('taskflow-theme', 'light')
 
-  // on pose l'attribut sur <html> pour que le CSS change les couleurs
   useEffect(() => {
     document.documentElement.dataset.theme = theme
   }, [theme])

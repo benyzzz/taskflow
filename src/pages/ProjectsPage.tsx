@@ -10,7 +10,7 @@ export default function ProjectsPage() {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    let cancelled = false // évite de mettre à jour un composant démonté
+    let cancelled = false
     api
       .getProjects()
       .then((data) => {

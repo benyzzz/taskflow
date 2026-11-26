@@ -1,6 +1,5 @@
 'use client'
 
-// Seul composant client : le filtre a besoin d'un état et des clics
 import { useState } from 'react'
 import { STATUS_LABELS } from '@/lib/types'
 import type { Filter, Task } from '@/lib/types'

@@ -1,4 +1,3 @@
-// Lecture des données côté serveur : plus besoin de json-server ni de fetch
 import { readFile } from 'node:fs/promises'
 import path from 'node:path'
 import type { Project, ProjectWithTasks, Task } from './types'

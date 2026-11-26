@@ -1,4 +1,3 @@
-// Squelette affiché automatiquement pendant le chargement d'une page
 export default function Loading() {
   return (
     <div aria-busy="true" aria-label="Chargement">

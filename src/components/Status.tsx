@@ -1,5 +1,3 @@
-// Petits composants pour les états "chargement" et "erreur"
-
 export function Loading({ text = 'Chargement…' }: { text?: string }) {
   return <p className="status-msg">{text}</p>
 }

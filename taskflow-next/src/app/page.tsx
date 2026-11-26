@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import { getProjects } from '@/lib/data'
 
-// Composant serveur : les données sont lues avant l'envoi du HTML
 export default async function HomePage() {
   const projects = await getProjects()
 

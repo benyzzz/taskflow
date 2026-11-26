@@ -48,7 +48,6 @@ export default function ProjectPage() {
     }
   }, [id])
 
-  // l'API d'abord, puis l'état
   async function add(title: string, priority: Priority) {
     try {
       const created = await api.createTask({ projectId: id, title, priority, status: 'todo' })
@@ -78,7 +77,6 @@ export default function ProjectPage() {
     }
   }
 
-  // bonus : supprimer le projet
   async function removeProject() {
     if (!window.confirm('Supprimer ce projet et toutes ses tâches ?')) return
     try {

@@ -1,6 +1,5 @@
 import type { NewProject, NewTask, Project, Task } from './types'
 
-// en local : json-server sur le port 3001 ; en ligne : l'adresse Render (variable VITE_API_URL)
 const BASE_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3001'
 
 export class ApiError extends Error {
@@ -11,7 +10,6 @@ export class ApiError extends Error {
   }
 }
 
-// fonction commune à tous les appels
 async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   let res: Response
   try {

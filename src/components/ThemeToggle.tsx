@@ -10,7 +10,7 @@ export default function ThemeToggle() {
       onClick={toggleTheme}
       aria-label={theme === 'light' ? 'Passer en mode sombre' : 'Passer en mode clair'}
     >
-      {theme === 'light' ? '🌙 Sombre' : '☀️ Clair'}
+      {theme === 'light' ? 'Mode sombre' : 'Mode clair'}
     </button>
   )
 }

@@ -19,7 +19,6 @@ export default function TaskForm({ onAdd }: TaskFormProps) {
   const [priority, setPriority] = useState<Priority>('P2')
   const inputRef = useRef<HTMLInputElement>(null)
 
-  // focus au premier affichage
   useEffect(() => {
     inputRef.current?.focus()
   }, [])
@@ -33,7 +32,7 @@ export default function TaskForm({ onAdd }: TaskFormProps) {
     if (disabled) return
     onAdd(trimmed, priority)
     setTitle('')
-    inputRef.current?.focus() // et après chaque ajout
+    inputRef.current?.focus()
   }
 
   return (

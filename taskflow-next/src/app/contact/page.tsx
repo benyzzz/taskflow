@@ -4,7 +4,6 @@ export const metadata: Metadata = {
   title: 'Contact',
 }
 
-// bonus du TP4
 export default function ContactPage() {
   return (
     <>

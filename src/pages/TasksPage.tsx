@@ -1,4 +1,3 @@
-// Ancienne page du TP2 (tâches perso en localStorage + minuteur), gardée sur /tasks
 import { useEffect, useState } from 'react'
 import Card from '../components/Card'
 import FilterBar from '../components/FilterBar'

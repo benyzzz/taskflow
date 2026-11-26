@@ -173,7 +173,6 @@ a {
   border-bottom: none;
 }
 
-/* bonus : couleur de la ligne selon la priorité */
 .task-item.priority-p1 {
   border-left-color: #ef4444;
 }
@@ -241,8 +240,6 @@ button.badge {
   margin: 0;
 }
 
-/* ---------- TP2 ---------- */
-
 [data-theme='dark'] {
   --bg: #12141c;
   --surface: #1c1f2b;
@@ -299,8 +296,6 @@ button.badge {
   display: flex;
   gap: 8px;
 }
-
-/* ---------- TP3 ---------- */
 
 .navbar {
   background: var(--surface);
@@ -462,8 +457,6 @@ a.btn {
   font-size: 1.2rem;
   margin: 8px 0 20px;
 }
-
-/* ---------- TP4 : squelette de chargement ---------- */
 
 .skeleton {
   background: var(--border);

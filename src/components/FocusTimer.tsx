@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import Card from './Card'
 
-const DURATION = 25 * 60 // 25 minutes en secondes
+const DURATION = 25 * 60
 
 function format(seconds: number) {
   const m = String(Math.floor(seconds / 60)).padStart(2, '0')
@@ -15,7 +15,6 @@ export default function FocusTimer() {
 
   useEffect(() => {
     if (!running) return
-    // un seul intervalle à la fois : il est nettoyé à chaque pause / démontage
     const id = setInterval(() => {
       setSecondsLeft((s) => {
         if (s <= 1) {
